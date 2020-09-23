@@ -1,6 +1,4 @@
-# travelBlog_JavaScriptRestAPI
-
-# Project plan
+# Project Plan : Travel Blog - JavaScript.RestAPI
 
 Build a travel blog. 
 
