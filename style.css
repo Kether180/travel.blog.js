@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+/******ELEMENT SELECTORS*******/
+* {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #000000;
+  color: #fefefe;
+}
+
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fefefe;
+}
+
+h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #f9f108;
+}
+
+h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #f9f108;
+}
+
+hr {
+  width: 3em;
+  border: 0;
+  height: 3px;
+  background-color: #f7cf04;
+  color: #fafa0a;
+  align-self: center;
+  margin: auto;
+  font-size: 4em;
+}
+
+iframe {
+  margin-top: 3%;
+}
+
+header img {
+  max-width: 100%;
+  height: 1.5em;
+}
+
+div h2,
+div p {
+  text-align: center;
+  height: auto;
+  color: #edd311;
+  font-size: ;
+}
+
+/***********CLASS SELECTORS***********/
+.center {
+  text-align: center;
+}
+
+p.blog1__text {
+  padding-top: 2em;
+}
+
+a:hover {
+  color: #ad764a;
+}
+
+.article:hover {
+  color: #fefefe;
+}
+
+.article {
+  color: #daed04;
+  text-decoration: underline;
+}
+
+.height {
+  height: inherit;
+}
+
+.himalayas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/himalayas1.jpg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.blog1__text {
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+}
+
+.blog1__text b {
+  font-size: 2em;
+}
+
+.nav__links ul {
+  position: relative;
+  text-align: right;
+  float: right;
+}
+
+.nav__links li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  padding: inherit;
+  margin-right: 2%;
+}
+.nav__links__footer li,
+.nav__links__footer a {
+  display: inline-block;
+  color: #313733;
+  margin-top: 0.3rem;
+}
+
+.nav__links__footer a:last-child {
+  padding-right: 30px;
+}
+
+.nav__links__footer a:hover {
+  color: #ad764a;
+}
+
+.copyright {
+  margin-top: 0.5rem;
+}
+
+.cta {
+  color: #fefefe;
+}
+
+.cta__button {
+  background-color: Transparent;
+  color: #313733;
+  font-size: 1.3em;
+  border: 2px solid #313733;
+  padding: 1rem;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta__button:hover {
+  background-color: #313733;
+  color: #ad764a;
+  border: 2px solid #ad764a;
+  transform: scale(1.1);
+}
+
+.button__container {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+.sections {
+  margin: auto;
+  padding: 30px;
+}
+
+.p__sections {
+  font-size: 0.8rem;
+  color: #fefefe;
+}
+
+.child_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 80%;
+}
+
+.child_logo {
+  display: block;
+  margin: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 200px;
+  opacity: 0.3;
+}
+
+.child_logo:hover {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.child_img_footer {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  height: auto;
+  width: 100%;
+  max-width: 150px;
+  margin: auto;
+  padding-top: 1%;
+}
+
+.child_img_footer:hover {
+  transform: scale(1.1);
+}
+
+.img_seperator {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 0.5em;
+  color: #f9f107;
+}
+
+.footer__seperator {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-color: #f1d012;
+  color: #f5f9f7;
+  align-self: center;
+  margin: auto;
+}
+
+.input,
+button {
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  background-color: #0c78f3;
+}
+
+.input {
+  width: 300px;
+}
+
+.form {
+  display: inline-block;
+}
+.hr {
+  border: none;
+  border-radius: 6px;
+  font-family: "Inconsolata", monospace;
+  color: #000000;
+  width: auto;
+  background-color: #000000;
+}
