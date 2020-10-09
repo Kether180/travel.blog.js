@@ -1,16 +1,14 @@
 # Project Plan : Travel Blog - JavaScript.RestAPI
 
-Build a travel blog. 
-
 ## Project
 
-Responsive Travel Blog  webApp
+Responsive Travel Blog  WebApp
 
 ## Features
 * A list of travel locations,videos and short information about locations.
 * A booking form of traveler's favorite location.
 * Current weather RestAPI and embedded google map of entered destination.
-* Booking form : Entry of  dates, arrivals and departures, traveler's details.
+* Booking form : Entry of arrivals / departures dates and traveler's details.
 
 ## Technologies
 
