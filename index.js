@@ -201,11 +201,24 @@ const addTraveler = (travelers) => {
 
 createTravelerForm();
 
+// confirm booking button
+
 const confirmElement = document.getElementById("confirm-booking");
 
 const onSubmitBooking = (event) => {
   event.preventDefault();
-  alert("ja");
+  alert("BOOKING CONFIRMED");
 };
 
 confirmElement.addEventListener("submit", onSubmitBooking);
+
+// newsletter button
+
+const newsLetter = document.getElementById("confirm-newsletter");
+
+const onSubmitnewsletter = (event) => {
+  event.preventDefault();
+  alert("you wont regreat it ;)");
+};
+
+newsLetter.addEventListener("submit", onSubmitnewsletter);
