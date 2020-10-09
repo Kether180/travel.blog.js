@@ -3,17 +3,25 @@
 Build a travel blog. 
 
 ## Project
-Html5, Bootstrap CSS3 , Javascript , Rest APIs.
 
-### Show a map with its location on a map
-Play around with Google Map. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) 
+Responsive Travel Blog  webApp
 
-### A list of travel locations
+## Features
+* A list of travel locations,videos and short information about locations.
+* A booking form of traveler's favorite location.
+* Current weather RestAPI and embedded google map of entered destination.
+* Booking form : Entry of  dates, arrivals and departures, traveler's details.
 
-### A form to add favorite travel locations
+## Technologies
 
-### Show the current weather of the travel location
-* [OpenWeatherMap API](https://openweathermap.org/api)
+ * Html5, Bootstrap CSS3 , Javascript , Rest APIs.
+
+* [Bootstrap](https://getbootstrap.com/")
+* [Weather API](https://openweathermap.org/api "Weather API documentation")
+* [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started "Google Maps Embed API documentation")
+
+ 
+## Check the project with codeSandbox
 
 https://k8clm.csb.app/
 
