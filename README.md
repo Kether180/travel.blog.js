@@ -1,6 +1,4 @@
-# Project Plan : Travel Blog - JavaScript.RestAPI
-
-## Project
+## Project Travel Blog 
 
 Responsive Travel Blog  WebApp
 
