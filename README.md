@@ -21,4 +21,4 @@ Responsive Travel Blog  WebApp
 
 https://k8clm.csb.app/
 
-https://codesandbox.io/s/travelblogwebapp-k8clm?file=/index.html
+
